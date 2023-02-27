@@ -5,7 +5,7 @@ cheat injector for csgo
 # Features
 - Loadlibrary
 - Csgo 
--vac bypass
+- vac bypass
 - Support newest VAC update
 - Bypass trusted
 
