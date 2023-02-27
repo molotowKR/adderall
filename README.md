@@ -1,10 +1,11 @@
 # Methylenedioxymethamphetamine
-cheat injector for csgo (tf2 coming soon)
+cheat injector for csgo
  
  enjoy :)
 # Features
 - Loadlibrary
-- Csgo (tf2 coming soon)
+- Csgo 
+-vac bypass
 - Support newest VAC update
 - Bypass trusted
 
