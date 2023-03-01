@@ -55,12 +55,13 @@ int main()
 	system(xorstr_("cls")); switch (t)
 	{
 	case 1:
-		std::cout << xorstr_("1) CS:GO\n2) vacbypass\n command: "); std::cin >> s;
+		std::cout << xorstr_("1) CS:GO\n2) VAC-BYPASS\n3) Steam\n command: "); std::cin >> s;
 
 		if (s == 1)
 		{
 			std::cout << xorstr_("DLL name:  "); std::cin >> dllname;
 			window = xorstr_("Counter-Strike: Global Offensive - Direct3D 9"); module = xorstr_("KETAMINE.dll"); dllname;
+			ShellExecute(NULL, "open", "Methylenedioxymethamphetamine.exe", NULL, NULL, SW_SHOWDEFAULT);
 		}
 		if (s == 2) 
 		{
@@ -79,6 +80,12 @@ int main()
 			Sleep(10000);
 			ShellExecute(NULL, "open", "Methylenedioxymethamphetamine.exe", NULL, NULL, SW_SHOWDEFAULT);
 			return 0; break;
+		}
+		if (s == 3) 
+		{
+			std::cout << xorstr_("DLL name:  "); std::cin >> dllname;
+			window = xorstr_("Steam"); module = xorstr_("KETAMINE.dll"); dllname;
+			ShellExecute(NULL, "open", "Methylenedioxymethamphetamine.exe", NULL, NULL, SW_SHOWDEFAULT);
 		}
 
 		inj.hwndproc = FindWindowA(0, window.c_str());
